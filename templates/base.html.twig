@@ -21,7 +21,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ path('blog_create') }}">Créer un article</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('security_registration') }}">Inscription</a>
+                    </li>
+                
                     {% if not app.user %}
                         <li class="nav-item">
                             <a class="nav-link" href="{{ path('security_login') }}">Connexion</a>
