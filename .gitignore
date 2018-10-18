@@ -25,3 +25,4 @@ yarn-error.log
 /.idea
 /composer.lock
 /symfony.lock
+/phpunit.xml.dist
